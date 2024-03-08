@@ -1,0 +1,70 @@
+body {
+    display:grid;
+    grid-template-columns: repeat (3,1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px,auto);
+    color: rgb(199, 45, 71);
+    background-color: rgb(243, 191, 243);
+    text-align: center;
+}
+h1 {
+    color: rgb(61, 46, 145);
+    text-align: center;
+    font-family: Arial;
+    background-color: aquamarine;
+}
+h2 {
+    color:rgb(129, 36, 79);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color:bisque
+}
+a:hover { 
+    color:hotpink;
+    font-size: 12.5px;
+}
+p{
+    text-align: right;
+}
+footer {
+    background-color: bisque;
+}
+ul{
+    font-style: italic;
+    background-color: pink;
+    color: purple;
+}
+ol{
+    background-color: rgb(238, 238, 194);
+    margin-left:100px;
+    margin-right:100px;
+    color: green;
+}
+#top-paragraph{
+    text-align:left;
+    word-spacing: 15px;
+}
+#blade-runner {
+    border: 5px solid #40447c;
+    border-radius: 8px;
+    padding-top:30px;
+    padding-bottom:15px;
+    padding-left: 0px;
+    padding-right:45px;
+    margin-right: 250px;
+    width: 500px;
+}
+#sushi{
+    border-radius: 50%;
+    width: 400px; 
+    margin-left:250px;
+    padding-bottom: 50px;
+}
+#important-link1 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+.important-link2{
+    font-size:25px;
+    text-decoration: none;
+}
